@@ -4,8 +4,8 @@ import airbnbLogo from '../../assets/logo/airbnb-logo.png';
 
 export default function Navbar () {
     return (
-        <nav className='navbar'>
-            <img src={airbnbLogo} alt='AirBnb Logo' className='navbar--logo' />
+        <nav className='nav'>
+            <img src={airbnbLogo} alt='Airbnb Logo' className='nav--logo' />
         </nav>
     );
 }

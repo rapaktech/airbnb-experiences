@@ -1,44 +1,17 @@
 .hero {
-    width: 550px;
+    display: flex;
+    flex-direction: column;
 }
 
-.hero--image-grid {
-    position: absolute;
-    width: 395.91px;
-    height: 232px;
-    left: 77px;
-    top: 96px;
+.hero--photo {
+    max-width: 400px;
+    align-self: center;
 }
 
 .hero--header {
-    position: absolute;
-    width: 347px;
-    height: 40px;
-    left: 36px;
-    top: 360px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 110%;
-
-    color: #000000;
+    margin-bottom: 16px;
 }
 
-
-.hero--paragraph {
-    position: absolute;
-    width: 320px;
-    height: 56px;
-    left: 36px;
-    top: 416px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 110%;
-
-    color: #222222;
+.hero--text {
+    margin-top: 0;
 }

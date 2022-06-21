@@ -1,140 +1,40 @@
-.card--person-image {
-    position: absolute;
-    width: 176px;
-    height: 235px;
-    left: 37px;
-    top: 521px;
-
-    border-radius: 9px;
+.bold {
+    font-weight: bold;
 }
 
-.card--experience-availabilty-text-container {
-    position: absolute;
-    width: 61px;
-    height: 20px;
-    left: 43px;
-    top: 527px;
-
-    background: #FFFFFF;
-    border-radius: 2px;
-}
-
-.card--experience-availabilty-text {
-    position: absolute;
-    width: 49px;
-    height: 11px;
-    left: 49px;
-    top: 532px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10.24px;
-    line-height: 110%;
-
-    text-align: center;
-
-    color: #222222;
-}
-
-.card--star-icon {
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    left: 36px;
-    top: 765px;
-
-    border-radius: 0.5px;
-}
-
-.card--average-star-rating {
-    position: absolute;
-    width: 18px;
-    height: 14px;
-    left: 52px;
-    top: 765px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 110%;
-
-    color: #222222;
-}
-
-.card--number-of-ratings {
-    position: absolute;
-    width: 18px;
-    height: 14px;
-    left: 72px;
-    top: 765px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 110%;
-
+.gray {
     color: #918E9B;
 }
 
-.card--ellipse-icon {
-    position: absolute;
-    width: 2px;
-    height: 2px;
-    left: 92px;
-    top: 771px;
 
-    background: #918E9B;
-}
-
-.card--country-abbreviation {
-    position: absolute;
-    width: 23px;
-    height: 14px;
-    left: 96px;
-    top: 765px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 110%;
-
-    color: #918E9B;
-}
-
-.card--experience-title {
-    position: absolute;
+.card {
     width: 175px;
-    height: 14px;
-    left: 37px;
-    top: 787px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
     font-size: 12px;
-    line-height: 110%;
-
-    color: #222222;
-    padding: auto;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.card--experience-price {
-    position: absolute;
-    width: 144px;
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
     height: 14px;
-    left: 36px;
-    top: 809px;
+}
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 110%;
-
-    color: #222222;
-    padding: 10px 0px;
+.card--price {
+    margin-top: auto;
 }
