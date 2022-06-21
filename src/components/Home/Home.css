@@ -1,0 +1,7 @@
+.cards-list {
+    width: 95vw;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
